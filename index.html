@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KausainAhmed - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/MyAvatar1.png" alt="Kausain Ahmed" width="80" style="margin-bottom: 17px;">
+        </figure>
+
+        <!-- <div class="info-content">
+          <h1 class="name" title="Kausain Ahmed">Kausain Ahmed</h1>
+          <p class="title">Flutter | Android | iOS</p>
+        </div> -->
+
+        <div class="info-content">
+          <h1 class="name" title="Kausain Ahmed">Kausain Ahmed</h1>
+          <!-- <p class="title" title="Flutter | Android | iOS">Flutter | Android | iOS</p> -->
+          <p class="title">Java Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:kausain.ahmed786@gmail.com" class="contact-link">kausain.ahmed786@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+917087959715" class="contact-link">+91 7087959715</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1999-06-27">June 27, 1999</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Kulesra, Greater Noida, UP</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/KausainAhmed" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/kausainahmed/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/Kausain.ahmed786/" target="_blank" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://x.com/kausainahmed786" target="_blank" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+           <b> Aspiring Java Developer Eager to Innovate.</b></p>
+            <p>With a strong foundation in <b>Java</b> and a passion for innovation, I have spent the past year developing dynamic web applications using Spring Boot and MySQL. My projects reflect my commitment to clean, maintainable code and user-centric design. I'm excited to contribute my skills to a forward-thinking team and continue pushing the boundaries of technology.</p>
+          </p>
+
+          <p>
+            <br>• <b>Core Java:</b> Proficient in Java SE (Standard Edition) fundamentals
+            </br>
+            • <b>Object-Oriented Programming (OOP):</b> Strong understanding of OOP principles and design patterns
+
+            <br>
+            • <b>Java Collections Framework:</b> Familiarity with Collections, Lists, Sets, Maps, etc.
+
+            <br>
+            • <b>Java Development Tools:</b> Experience with IDEs such as IntelliJ IDEA, Eclipse, or STS
+
+            </br>
+            • Basic Knowledge of <b>Software Development Life Cycle (SDLC):</b> Understanding of various stages in SDLC
+
+            <br>
+            • Collaborating with UI and UX Designers, as well as Software Testers, to ensure that each app is
+              presentable &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; and in perfect working order.
+
+            <br>
+            • Identify and correct bugs. Maintain quality and ensure responsiveness of applications.
+
+            <br>
+            • Proofreading app code and correcting mistakes before each app is released to production
+
+            <br>
+            • <b>Version Control Systems:</b> Proficiency in <b>Git and GitHub</b> for version control and collaboration
+
+            <br>
+            • Java Frameworks: Basic knowledge of <b>Spring, Spring Boot, and Hibernate</b>
+
+            <br>
+            • Web Technologies: Understanding of <b>HTML, CSS, JavaScript, and JSP/Servlets</b>
+
+          <br>
+            • <b>APIs and Web Services:</b> Knowledge of <b>RESTful web services and JSON/XML</b>
+
+          <br>
+            • Build Tools: Experience with <b>Maven or Gradle</b> for project management and build automation
+
+          <br>
+          • <b>Problem Solving</b> abilities with <b>Debugging and Troubleshooting</b> methods
+
+        </br>
+
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/logo1.png" alt="Java-icon" width="60">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Java Development</h4>
+
+                <p class="service-item-text">
+                  Development of Java based Applications using frameworks and libraries
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/logo2.png" alt="frontend logo" width="60" style="margin-top: 10px">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Front-end Development</h4>
+
+                <p class="service-item-text">
+                  Developing front-end applications using html,css,javascript and bootstarp like technologies
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Client From USA" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Happy Clients</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Client From USA" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Client Reviews</h4>
+
+              <time datetime="2021-06-14">11 June, 2024</time>
+
+              <div data-modal-text>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                  scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                  into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                  release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                  software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <!-- <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Punjab University</h4>
+
+              <span>2017 — 2020</span>
+
+              <p class="timeline-text">
+                Bachelor of Computer Application (BCA)
+                <br>
+                Percentage: 65%
+                </br>
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Central Board of Secondary Education (CBSE)</h4>
+
+              <span>2015 — 2017</span>
+
+              <p class="timeline-text">
+                 12th - PCM
+                <br>
+                Percentage: 61.8% 
+                </br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Central Board of Secondary Education (CBSE)</h4>
+
+              <span>2014 — 2015</span>
+
+              <p class="timeline-text">
+                 10th
+                <br>
+                Percentage: 8.6 CGPA 
+                </br>
+              </p>
+
+            </li>
+          </ol>
+
+          <div class="qr">
+            <img src="assets/images/QR.png" style="width:60%; margin:auto">
+          <a href="https://cdn0030.qrcodechimp.com/qr/PROD/64d29cd470e4744b00702f88/fm/kausainahmedresume.pdf" download>Download CV Here</a>
+        </div>
+
+        </section>
+
+
+          <style> 
+          .qr {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    background: #1e1e1f;
+    width: 360px;
+      }
+      .qr a {
+    padding: 7px 18px;
+    background: #fff;
+    width: 197px;
+    margin: auto;
+    font-size: 15px;
+    margin-top: 20px;
+    bordeer-radius: 10px;
+    border-radius: 10px !important;
+    text-align: center;
+    font-weight: 600;
+    color: #000;
+}
+.qr a:hover {
+    transition: all ease 0.7s;
+    color: #fff;
+    background: #000;
+    border: solid 1px #DDD;
+}
+.qr img {
+    box-shadow: #f4f5f8 0px -1px 8px 3px;
+}
+
+        .timeline{
+          position: relative;
+        }
+          </style>
+
+
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Customer Support Executive</h4>
+              <span>Tech Mahindra (Sec-64, Noida)</span>
+
+              <span>8th May, 2024 - 20th July, 2024 </span>
+
+              <p class="timeline-text">
+                Worked as a Customer Support Executive to enhance my communication skills and vocabulary. This also helped me to gain some experience on interacting people with different mindsets and providing them relavent and satisfied solution.
+              </p>
+
+            </li>
+
+            <!-- <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Development Engineer II </h4>
+              <span>Matrix Comsec Pvt. Ltd.</span>
+              <span>Apr 2021 - Apr 2022 · 1 yr 1 mo</span>
+
+              <p class="timeline-text">
+                Work and manage the Matrix products based on Security, Access Control & Time-Attendance called Cosec
+                APTA, Cosec ACS, Cosec VMS. This Product is used to mark employees' attendance on a daily basis using
+                face recognition, Live location, or via communication with the company door devices. Proofreading app
+                code and correcting mistakes before each app is released.
+                <br>
+                Skills: Flutter · Android · Xamarin · C# · SwiftUI
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Android and Flutter Developer Trainee</h4>
+              <span>Rishabh Software Pvt. Ltd.</span>
+
+              <span>Aug 2019 - Dec 2020 · 1 yr 5 mos</span>
+
+              <p class="timeline-text">
+                · Worked on the Flutter project based on the laundry In which you can access features like Pickup,
+                Drop-off the clothes for different Laundry service based on your location. You can also Make payment
+                online through the application itself.
+                <br>· Worked on the Flutter project based on the laundry In which you can access features like Pickup,
+                Drop-off the clothes for different Laundry service based on your location. You can also Make payment
+                online through the application itself.
+                <br>
+                Skills: Flutter · Android · Xamarin
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Android Developer Intern</h4>
+              <span>Rishabh Software Pvt. Ltd.</span>
+
+              <span>Jun 2019 - Jul 2019 · 2 mos</span>
+
+              <p class="timeline-text">
+                · A flutter warranty app in which you can add the products warranty with the Whole description and
+                Photos. You can also set a expiry Reminder. When your product going to be expired, the app give you
+                notification for specific product as per your notification preferences.<br>
+                Skills: Flutter · Android · Xamarin
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Developer Intern</h4>
+              <span>Rishabh Software Pvt. Ltd.</span>
+
+              <span>Jan 2019 - May 2019 · 5 mos</span>
+
+              <p class="timeline-text">
+
+                Skills: Java · Spring Boot
+              </p>
+
+            </li> -->
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Core Java</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">J2EE(JSP/SERVELET)</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Spring and Spring Boot</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MySQL</h5>
+                <data value="65">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Html/Css/Bootstrap(front-end)</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Communication Skills</h5>
+                <data value="88">88%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 88%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Back-end Projects</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Front-end Projects</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Back-end Projects</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Front-end Projects</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/KausainAhmed">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pro1.png" alt="github-main" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Github-Profile</h3>
+
+                <p class="project-category">Profile Developmentt</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/KausainAhmed/Core/tree/main/Core/src">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pro2.png" alt="core java" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Core Java Programs</h3>
+
+                <p class="project-category">Back-end Projects</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://kausainahmed.github.io/Crush/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pro3.png" alt="crush-main" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Website for crush using html,css and js(mobile supported)</h3>
+
+                <p class="project-category">Front-end Projects</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/KausainAhmed/Logicaal/tree/main/Logical/src/programs100">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pro4.png" alt="logical java programs" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Logical Java Programs</h3>
+
+                <p class="project-category">Back-end Projects</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/KausainAhmed/Hawa_Hawai/tree/main/Hawa_Hawai/src/main">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pro5.png" alt="Spring Boot" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Flight Reservation using Spring Boot</h3>
+
+                <p class="project-category">Back-end Projects</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="##">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pro6.png" alt="My Portfolio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">My Portfolio</h3>
+
+                <p class="project-category">Front-end Projects</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://medium.com/@i_m_alfaizkhan/exploring-the-stripe-payment-gateway-in-flutter-e8524a0ade75"
+                target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Exploring the Stripe Payment Gateway In Flutter"
+                    loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Flutter</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-07-27">Jul 27, 2022 · 7 min read</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Exploring the Stripe Payment Gateway In Flutter</h3>
+
+                  <p class="blog-text">
+                    Stripe payment gateway integration in flutter project.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=kulesara&amp;t&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://formspree.io/f/meojgvpq" method="POST" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit">
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
